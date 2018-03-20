@@ -3,8 +3,7 @@
 def countdown(int)
   while (int>0) do
     puts "#{int} SECOND(S)!"
-    number -= 1
-    
+    int -= 1
   end
-
+  puts 
 end
